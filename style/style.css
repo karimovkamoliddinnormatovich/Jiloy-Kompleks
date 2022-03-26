@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background: var(--dark);
+}
+
+/* header */
+
+.header-img{
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%);
+}
+.header-menu{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 30px;
+    right: 15%;
+    bottom: 0;
+    left: 15%;
+}
+.header-logo-title{
+    font-family: 'PostNoBillsJaffna';
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+.header-logo-text{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.header-menu-list{
+    display: flex;
+    padding-top: 35px;
+}
+.header-menu-item{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    line-height: 16px;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 40px;
+}
+.header-menu-it{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    line-height: 16px;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+    list-style: none;
+}
+.header-menu-it:hover{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--accent);
+    line-height: 16px;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+    list-style: none;
+}
+.header-info{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.header-info-title{
+    font-family: 'PlayfairDisplay';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: var(--accent);
+}
+.header-info-icon{
+    font-size: 40px;
+    color: var(--accent);
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+}
+.header-info-adres{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.header-info-adres-title-1{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    padding-right: 10%;
+}
+.header-info-adres-title-2{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;   
+}
+.header-info-adres-icon{
+    padding-right: 15px;
+}
+
+/* complex info */
+
+.section-complex{
+    margin-top: 120px;
+}
+.complex-info-all{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+.complex-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.complex-title{
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+/* kvartira */
+
+.kvartira{
+    margin-top: 120px;
+}
+.kvartira-title{
+    font-family: 'PlayfairDisplay';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--accent);
+}
+.loft-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.loft-img{
+    width: 535px;
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+    margin-top: 100px;
+}
+.loft-title{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    margin-top: -85px;
+    padding-left: 50px;
+}
+
+/* xotite posmetret */
+
+.posmotret{
+    margin-top: 50px;
+    position: relative;
+}
+.posmotret-img{
+    width: 100%;
+}
+.xotite-posmetret{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.xotite-posmetret-right{
+    width: 535px;
+}
+.xotite-posmetret-title{
+    font-family: 'PlayfairDisplay';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--accent);
+}
+.xotite-posmetret-text{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-top: 50px;
+}
+.xotite-posmetret-left{
+    width: 540px;
+    margin-left: 35px;
+}
+.xotite-posmetret-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.xotite-button{
+    width: 255px;
+    height: 50px;
+    opacity: 0.2;
+    background: white;
+    margin-top: 50px;
+}
+.xotite-button-2{
+    width: 255px;
+    height: 50px;
+    background: var(--accent);
+    margin-top: 50px;
+}
+.xotite-btn{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 14px;
+    color: #bebebe;
+    text-align: center;
+    opacity: 100%;
+}
+.xotite-btn-2{
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+.xotite-title{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #e7e7e7;
+    padding: 0 5px;
+    margin-top: 55px;
+}
+
+/* video */
+
+.video-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.video-icon{
+    position: absolute;
+    font-size: 100px;
+    color: var(--accent);
+    top: 47%;
+    right: 0;
+    bottom: 0;
+    left: 47%;
+}
+
+/* katra */
+
+.karta{
+    margin-top: 180px;
+}
+.karta-title{
+    font-family: 'PlayfairDisplay';
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--accent);
+}
+.karta-gps{
+    width: 1110px;
+    height: 358px;
+    margin-top: 100px;
+}
+
+/* vopros */
+
+.vopros{
+    margin-top: 180px;
+}
+.vopros-box-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.vopros-title{
+    font-family: 'PlayfairDisplay';
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--accent);
+}
+.vopros-box-title{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #e7e7e7;
+}
+.vopros-box-button{
+    width: 255px;
+    height: 50px;
+    opacity: 0.2;
+    background: white;
+}
+.vopros-box-button-2{
+    width: 255px;
+    height: 50px;
+    background: var(--accent);
+}
+.vopros-box-btn{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 14px;
+    color: #bebebe;
+    text-align: center;
+    opacity: 100%;
+}
+.vopros-box-btn-2{
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* footer */
+
+.footer{
+    background:  #2D343C;
+    margin-top: 180px;
+    padding-bottom: 40px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.footer-box-2{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-box-2-item{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 5%;
+    color: white;
+    padding-top: 15px;
+}
+.footer-box-2-item:hover{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 5%;
+    color: var(--accent);
+    padding-top: 15px;
+}
+.footer-box-4{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box-2-item span{
+    color: var(--accent);
+}
+.footer-icon{
+    font-size: 30px;
+    color: white;
+    padding: 15px 10px;
+}
+.footer-icon:hover{
+    font-size: 30px;
+    color: var(--accent);
+    padding: 15px 10px;
+}
